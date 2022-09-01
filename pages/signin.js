@@ -1,17 +1,17 @@
 import { getProviders, signIn, getSession, getCsrfToken } from 'next-auth/react'
 function signin({ providers }) {
   return (
-    <div>
+    <main id='sign-in-page'>
       {Object.values(providers).map((provider) => {
         return (
-          <div key={provider.name}>
+          <section className='sign-in' key={provider.name}>
             <button onClick={() => signIn(provider.id)}>
               Sign in with {provider.name}
             </button>
-          </div>
+          </section>
         )
       })}
-    </div>
+    </main>
   )
 }
 
