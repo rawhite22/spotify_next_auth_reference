@@ -12,15 +12,9 @@ main#sign-in-page {
       -ms-flex-pack: center;
           justify-content: center;
   height: 100vh;
-  background-color: aqua;
+  background-color: var(--color-bg-primary);
 }
 
 main#sign-in-page .sign-in button {
   padding: 1rem 2rem;
-}
-
-@media (prefers-color-scheme: dark) {
-  main#sign-in-page {
-    background-color: black;
-  }
 }

@@ -1,0 +1,23 @@
+#home-page.home-page-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  background-color: var(--color-bg-primary-light);
+  color: var(--color-text-secondary-light);
+}
+
+#home-page.home-page-container.dark {
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-secondary);
+}
