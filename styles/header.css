@@ -1,0 +1,9 @@
+.header {
+  background-color: var(--color-bg-primary-light);
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.header.dark {
+  background-color: var(--color-bg-primary);
+}

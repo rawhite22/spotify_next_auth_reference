@@ -1,0 +1,9 @@
+footer {
+  background: var(--color-bg-primary-light);
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+footer.dark {
+  background: var(--color-bg-primary);
+}
